@@ -7,4 +7,4 @@ Pelo <a href="https://moodle.ifrs.edu.br/">Instituto Federal Rio Grande do Sul</
 
 Situação do curso : Em andamento 
 
-Certificado : Ainda a gerar em andamento (quase concluido)
+Certificado : Ainda a gerar em andamento 
