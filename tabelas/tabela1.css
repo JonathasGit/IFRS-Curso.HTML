@@ -3,5 +3,9 @@ body{
 }
 
 .retira{
+    color: green;
+    
+}
+.devolucao{
     color: red;
 }
