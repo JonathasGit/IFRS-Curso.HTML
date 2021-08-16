@@ -1,0 +1,13 @@
+
+.titulo{
+    text-align: center;
+}
+
+.botao{
+        background-color:  maroon; /*Cor*/
+        padding: 15px ; /*Aumentar o botão*/
+        border-radius: 30px;  /*Arredondar o botão*/ 
+        font-size: 18px; /*Tamanho da fonte*/
+        width: 200px; /*Largura do botão*/ 
+        border: 1px solid #eee; /*Colocar uma borda no botão*/
+    }
