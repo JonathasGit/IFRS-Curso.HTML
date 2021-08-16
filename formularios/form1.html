@@ -6,11 +6,28 @@
         <meta charset="UTF-8">
         <body>
             <form  method="post" action="#">
-                Nome: <input type="text" name ="nome" placeholder="Informe seu nome: "><br>
+                Nome: <input type="text" name ="nome" placeholder="Informe seu nome: "><br> <!--Campo com texto dentro-->
                 E-mail: <input type="text" name="email" placeholder="000.000.000-00" ><br>
-                Campo desabilitado: <input type="text" name="campo" placeholder="Desabiltiado" disabled><br>
-                Campo com valor definido: <input type="text" name="email" value="Campo escrito" placeholder="Somente Leitura" readonly> <br>
-                Número <input type="text" name="cpf" maxlength="14">
+                Campo desabilitado: <input type="text" name="campo" placeholder="Desabiltiado" disabled><br> <!--Campo desabilitado-->
+                Campo com valor definido: <input type="text" name="email" value="Campo escrito" placeholder="Somente Leitura" readonly> <br> <!-- readonly - Somente leitura-->
+                Campo com nome: <input type="text" name="nome" placeholder="Nome aqui" value="Já tem nome"><br>
+
+
+                Número de CPF: <input type="text" name="cpf" placeholder="Informe um número" maxlength="14" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}">
+              
+                <P>Para fazer a validação do CPF:</P>
+                <p> Entrar no site : <a href="https://www.regexpal.com/">Acessar aqui</a></p>
+                <!--<p>Usar os valores [0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}</p>-->
+
+                Campo Requerido 1 <input type="text" name="nome" placeholder="Nome 1" value="Teste" required> <!--Não funcionou-->
+
+                Senha <input type="password" name="senha" placeholder="Senha"> <br>
+
+                Campo de Descrição <textarea name="decricao"></textarea> <!--Campo para descrição-->
+
+
+                Final da aula 2.2 dia 16/08/2021 
+                Aula 2.3 botoes
             </form>
         </body>
     </head>
