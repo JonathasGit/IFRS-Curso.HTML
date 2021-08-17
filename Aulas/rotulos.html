@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rótulos e Agrupamentos de Campos</title>
+
+<body>
+    <h2>Alguns Rótulos e Agrupamentos de Campos - Aula 2.4</h2>
+
+    <form action="post">
+        <label for="homem">Homem</label>
+        <input type="radio" name="sexo" id="homem" value="homem"><br>
+
+        <label for="mulher">Mulher</label>
+        <input type="radio" name="sexo" id="mulher" value="mulher">
+
+        <label for="endereco">Endereço</label> <!--Ao clicar no endereço, direciona para o campo do texto-->
+        <textarea id="endereco" name="endereco"></textarea><hr> 
+
+        <h2>Fieldset</h2>
+        <p>Delimita o conjunto de campos comuns</p><br>
+
+        <fieldset>
+            <legend>Dados Pessoas:</legend>
+            Nome: <input type="text" placeholder="Seu nome"><br>
+            Sobrenome: <input type="text"><br>
+            E-mail: <input type="text" placeholder="Seu e-mail"><br>
+            Nascimento: <input type="text" ><br>
+        </fieldset>
+
+
+    </form>
+
+</body>
+
+</head>
+
+</html>
