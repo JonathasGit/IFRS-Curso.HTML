@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Campos de Seleção - Aula 2.5</title>
+        <body>
+            <h2>Campos de Seleção - Aula 2.5</h2><br>
+            <p>Usando o checkbox, para selecionar mais de um dos campos:</p><br>
+
+            <form method="POST" action="#">
+                Quais cursos você fará?<br><br>
+                <input type="checkbox" name="html" value="1">HTML<br>
+                <input type="checkbox" name="css" value="1">CSS<br>
+                <input type="checkbox" name="js" value="1" checked>JavaScript<br><br><hr>
+            </form>
+
+            <h2>Radio - Apenas umas das opções</h2>
+            <p>Usado para selecionar um campo somente</p>
+
+            <form method="POST" action="#">
+                Qual linguagem vai aprender?<br>
+                <input type="radio" name="linguagem" value="Java" checked>Java<br>
+                <input type="radio" name="linguagem" value="Python">Python<br>
+                <input type="radio" name="linguagem" value="JavaScript">JavaScript<br>
+                <input type="radio" name="linguagem" value="PHP">PHP<br>
+            </form> <hr>
+
+            <h2>Select</h2>
+            <p>Selecionar um campo de uma lista de elementos</p>
+
+            <form method="POST" action="#">
+                Qual sistema operacional vai usar?<br>
+                <select name="sistema">
+                    <option value="Windows">Windows</option>
+                    <option value="IOS">IOS</option>
+                    <option value="LInux">LInux</option>
+                </select>
+            </form>
+
+        </body>
+    </head>
+</html>
