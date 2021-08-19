@@ -5,6 +5,29 @@
         <title>Novos Campos</title>
         <body>
             <h1>Novos Campos - Aula 2.6</h1>
+            <form method="POST" action="#">
+
+                <P>Campo de Data</P>
+                <input type="date" name="data"> <br>
+
+                <p>Campo de e-mail</p>
+                <input type="email" name="email">
+
+                <p>Campo de Escolha - Qual a faixa quer selecionar</p>
+                <input type="range" name="faixa">
+
+                <p>Cores - Escolher uma cor</p>
+                <input type="color" name="cor">
+
+                <p>Lista</p>
+                <input list="cursos" name="curso">
+                <datalist id="cursos">
+                    <option value="HTML"></option>
+                    <option value="CSS"></option>
+                    <option value="JavaScript"></option>
+
+                </datalist>
+            </form>
 
         </body>
     </head>
