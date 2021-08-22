@@ -5,6 +5,6 @@ Algumas tabelas e formulários. (curso bem básico mesmo, para conhecer o HTML)
 
 Pelo <a href="https://moodle.ifrs.edu.br/">Instituto Federal Rio Grande do Sul</a>
 
-Situação do curso : Em andamento 
+Situação do curso : Concluido
 
-Certificado : Em andamento 
+Certificado : Link a gerar.
