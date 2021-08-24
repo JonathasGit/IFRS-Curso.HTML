@@ -7,7 +7,7 @@ Pelo <a href="https://moodle.ifrs.edu.br/">Instituto Federal Rio Grande do Sul</
 
 Situação do curso : Concluido
 
-Certificado : Link a gerar.
+Certificado : <a href="https://moodle.ifrs.edu.br/mod/simplecertificate/view.php?id=173024&action=get">HTML: Tabelas e formulários (20 horas)</a>
 
 
 Tabelas e Formulários. 
