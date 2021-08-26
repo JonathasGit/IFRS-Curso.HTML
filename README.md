@@ -11,3 +11,4 @@ Certificado : <a href="https://moodle.ifrs.edu.br/mod/simplecertificate/view.php
 
 
 Tabelas e Formulários. 
+Curso finalizado, apenas exercicios relacionados a tabelas e formulários será adicionado.
